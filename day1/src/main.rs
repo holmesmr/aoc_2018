@@ -84,8 +84,6 @@ fn find_first_frequency_reached_twice(changes: &[FrequencyChange]) -> i32 {
 }
 
 fn main() -> Result<()> {
-    println!("Hello, world!");
-
     let f = File::open("./day1/input")?;
     let f = BufReader::new(f);
 
